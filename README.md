@@ -26,7 +26,7 @@ Hackintosh your Xiaomi Air 12.5
 
 ## Release
 
-A complete EFI archive is available [releases](https://github.com/Ivan1500/xiaomi-air-12.5-macos/releases) page.
+A complete EFI archive is available [releases](https://github.com/Ivan1500/Xiaomi-Air-MacOS/releases) page.
 
 
 ## Change Log:
