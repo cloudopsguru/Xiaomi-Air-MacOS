@@ -31,8 +31,11 @@ A complete EFI archive is available [releases](https://github.com/Ivan1500/Xiaom
 
 ## Change Log:
 
+- 22-03-2018
+	- config.plist is now properly read.
+
 - 12-03-2018
-   - High Sierra Clover EFI uploaded on Git.
+	- High Sierra Clover EFI uploaded on Git.
 
 
 ## Support and discussion
