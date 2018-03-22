@@ -103,6 +103,20 @@
 					QVpBTA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
 			</array>
 			<key>#Rtc8Allowed</key>
 			<false/>
@@ -119,23 +133,6 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -316,16 +313,16 @@
 			<string>0x0887</string>
 			<key>Inject</key>
 			<string>3</string>
-
-
+			<key>ResetHDA</key>
+			<false/>
 		</dict>
-<key>USB</key>
-<dict>
-<key>FixOwnership</key>
-<true/>
-<key>Inject</key>
-<true/>
-</dict>​
+		<key>USB</key>
+		<dict>
+			<key>FixOwnership</key>
+			<true/>
+			<key>Injext</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -771,7 +768,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-
 				<string>Zeroing 10ec0261 codec (patched by AppleHDA Patcher.app)</string>
 				<key>Disabled</key>
 				<false/>
@@ -779,6 +775,8 @@
 				<data>
 				YQLsEA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -795,11 +793,11 @@
 				<data>
 				YgLsEA==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
-
 				<string>AppleHDA</string>
 				<key>Replace</key>
-
 				<data>
 				AAAAAA==
 				</data>
@@ -811,10 +809,10 @@
 				<false/>
 				<key>Find</key>
 				<data>
-
 				hQjsEA==
 				</data>
-
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -831,11 +829,12 @@
 				<data>
 				hBnUEQ==
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
 				<data>
-
 				NQLsEA==
 				</data>
 			</dict>
