@@ -22,6 +22,8 @@ Hackintosh your Xiaomi Air 12.5
 ## Credits
 
 - [RehabMan](https://github.com/RehabMan) 
+- [nabster](https://www.hackintosh-forum.de/index.php/User/46981-nabster/) 
+- [eddmecha](https://www.tonymacx86.com/members/eddmecha.708928/) 
 
 
 ## Release
