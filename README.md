@@ -31,6 +31,9 @@ A complete EFI archive is available [releases](https://github.com/Ivan1500/Xiaom
 
 ## Change Log:
 
+- 27-03-2018
+	- Updated DSDT.aml includes fix for Brightness keys to work without remaping tool. Thanks to @influenist.
+
 - 22-03-2018
 	- config.plist is now properly read.
 
